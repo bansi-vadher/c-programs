@@ -1,0 +1,16 @@
+#include<stdio.h>
+#include<conio.h>
+main()
+	int age;
+	clrscr();
+	if(0<18)
+	{
+		printf("you have vote!!");
+
+	}
+	else if(0>18)
+	{
+		printf("yoh do not have vote!!");
+
+	}
+	getch();
