@@ -1,19 +1,23 @@
 /*
-1
-12
-123
-1234
 12345
+ 2345
+  345
+   45
+    5
 */
-
 #include<stdio.h>
 int main()
 {
-     int j,i;
+     int j,i,s;
 
      for(i=1; i<=5; i++)
      {
-          for(j=i; j>=1; j--)
+          for(s=1;s<i;s++)
+          {
+             printf(" ");  
+          }
+
+          for(j=i; j<=5; j++)
           {
                printf("%d",j);
           }
