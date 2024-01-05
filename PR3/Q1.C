@@ -8,6 +8,7 @@ void main()
 	do
 	{
 	printf("%c\n",ch);
+	{
 	ch=ch+4;
 	}
 	while(ch<='z');

@@ -13,11 +13,12 @@ int main()
 		printf("character is alphabet");
 	}
 	   else if(ch>=0&&ch<=9)
+	   {
 		printf("character is number");
+	   }
 	    else
-
+		{
 		printf("special character");
-
+		}
 	 getch();
-
 }
